@@ -1,0 +1,57 @@
+# =============== #
+# Unity .gitignore #
+# =============== #
+
+# Ignore the Library folder (Unity will regenerate it)
+Library/
+# Ignore temporary and cache files
+Temp/
+# Ignore logs
+Logs/
+# Ignore builds (optional, unless you want to keep built versions)
+Build/
+Builds/
+
+# Ignore user-specific settings
+UserSettings/
+*.userprefs
+
+# Ignore Unity-generated Visual Studio files
+.vs/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.unityproj
+*.dll
+*.mdb
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore package caches
+Packages/packages-lock.json
+Packages/manifest.json.meta
+
+# Ignore crash reports
+.crash/
+
+# Ignore JetBrains Rider files
+.idea/
+*.iml
+
+# Ignore Auto-generated Lighting Data
+**/LightingData.asset
+**/ReflectionProbe-*.exr
+
+# Ignore Play mode & Edit mode test results
+Assets/Scenes/Tests/Results/
+
+# Ignore local cache
+.cache/
