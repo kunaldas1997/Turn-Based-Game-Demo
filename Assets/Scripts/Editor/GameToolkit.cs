@@ -86,7 +86,7 @@ public class GameToolkit : EditorWindow
         }
         else
         {
-            GUILayout.Label("Enabled only when game is run in Play Mode or Player has been Spawned", EditorStyles.boldLabel);
+            GUILayout.Label("Enabled in PlayMode only", EditorStyles.boldLabel);
             GUI.enabled = false;
         }
 
